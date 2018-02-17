@@ -1,0 +1,112 @@
+
+
+/* Big tablets to to 1023px (widths smaller than the 1140px row */
+@media only screen and (max-width:1200px){
+    
+    
+}
+
+
+/* Small tablets to Big tablet : from 768px to 1023px */
+@media only screen and (max-width:1023px){
+    
+    section {
+    padding: 45px 0;
+}
+    
+    h2 {
+    margin-bottom: 30px;
+}
+    
+    .btn:link,
+.btn:visited,
+    input[type=submit] {
+    margin:5px;
+}
+    
+    html,
+    body {
+        font-size: 18px;
+    }
+    
+/* ----------------------------------------------- */
+/* Services */
+/* ----------------------------------------------- */
+    .for-whole-width-1{
+        margin: 0 50px;
+    }
+
+    
+    .price-discount{
+        margin-top:7px;
+        margin-left: 2px;
+        font-size: 175%;
+        color:#F9C816;
+        font-weight: 800;
+    }
+    .price-actual{
+        font-size: 100%;
+        color:#F9C816;
+        font-weight: 700;
+        padding:10px 10px 18px 30px;
+        text-decoration-line: line-through;
+    }
+
+/* ----------------------------------------------- */
+/* Testimonies */
+/* ----------------------------------------------- */
+  
+.small-img{
+    width: 86%;
+    margin: 16px 7% 15px 7%;
+    }
+
+.big-img{
+    width: 96%;
+    margin: 0px 2%;
+}
+    
+
+.testimony-text-long {
+    width:100%;
+    margin:20px auto;
+    text-align: center;
+    line-height: 145%;
+    
+}
+.testimony-text-short {
+    width:80%;
+    margin:20px auto;
+    text-align: center;
+    line-height: 145%;
+}
+
+.text-emphasis{
+    font-style: italic;
+}
+
+.tell{
+    font-size:120%;
+    font-weight: 700;
+    display: inline-block;
+    margin:30px 30px 5px 85px;
+}
+.img-btn{
+    margin-top:5px;
+    margin-right:85px;
+}  
+    
+}
+    
+
+/* Small phones: to small tablets : from 481px to 767px */
+@media only screen and (max-width:767px){
+    
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width:480px){
+    
+    
+}
